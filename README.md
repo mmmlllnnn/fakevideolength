@@ -30,13 +30,11 @@ mp4box check:
 
 The structure of MP4 file as follows:<br>
 
-![](./picture/mp4_structure.2.png)
+![](./picture/mp4_structure2.png)
+![](./picture/mp4_structure.jpg)
 
-<div style="display: flex; align-items: center;">
-    <img src="./picture/mp4_structure.jpg" alt="描述" style="width: 100px; margin-right: 10px;">
-    <p>"time scale" and "duration" are located in the "mvhd" and "trak" box headers to record the duration of the video.
-    We find its location in the binary file and modify it. As long as we modify the format correctly, the video will still play fine, but the time displayed in the player will change.</p>
-</div>
+"time scale" and "duration" are located in the "mvhd" and "trak" box headers to record the duration of the video.
+We find its location in the binary file and modify it. As long as we modify the format correctly, the video will still play fine, but the time displayed in the player will change.
 <br>
 
 ---
