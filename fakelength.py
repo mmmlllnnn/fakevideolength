@@ -86,12 +86,6 @@ def modify_mp4_duration(input_file, output_file, new_duration):
     except Exception as e:
         print(f"An unknown error occurred: {e}")
 
-# analyze_mp4(input_file)
-input_mp4 = "C:/Users/Administrator/Desktop/example.mp4"  # 替换为你的输入文件
-output_mp4 = "C:/Users/Administrator/Desktop/output.mp4" # 替换为你的输出文件
-new_duration = 60  # 替换为你的新时长 (秒)
-
-
 
 def main():
     parser = argparse.ArgumentParser(description="Fake mp4 video duration")
